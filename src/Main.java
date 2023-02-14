@@ -57,6 +57,15 @@ public class Main {
 
      public static void task4() {
           System.out.println("Задача 4");
+          byte bottleOneMin=16/2;
+          int bottleTwentyMin= bottleOneMin*20;
+          System.out.println("За 20 мин машина произвела " + bottleTwentyMin + " штук бутылок");
+          int bottleOneDay= bottleOneMin*1440;
+          System.out.println("За один день машина произвела " + bottleOneDay + " штук бутылок");
+          int bottleThreeDay= bottleOneMin*4320;
+          System.out.println("За три дня машина произвела " + bottleThreeDay + " штук бутылок");
+          int bottleOneMonth= bottleOneMin*43400;
+          System.out.println("За один месяц машина произвела " + bottleOneMonth + " штук бутылок");
      }
 
      public static void task5() {
